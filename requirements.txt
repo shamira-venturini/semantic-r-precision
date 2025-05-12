@@ -1,0 +1,4 @@
+numpy~=2.0.0
+torch~=2.7.0
+sentence-transformers~=4.1.0
+nltk~=3.9.1
