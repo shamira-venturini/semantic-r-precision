@@ -34,7 +34,7 @@ If you use SemR-p in your research, please cite our paper:
 *   Evaluates top-R predictions, making it rank-aware and adaptive to the number of reference keyphrases.
 *   Prioritises exact stem matches for computational efficiency
 *   Utilises transformer-based embeddings (via Sentence Transformers) for robust semantic similarity scoring of non-exact matches.
-*   Considers the top-$k$ most similar references for semantic scoring, allowing for nuanced evaluation.
+*   Considers the top-*k* most similar references for semantic scoring, allowing for nuanced evaluation.
 
 ---
 
@@ -56,6 +56,8 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
+
+
 ## Usage
 
 ``` python
@@ -72,10 +74,14 @@ predicted_keyphrases = [
 ]
 
 # Compute Semantic R-Precision with default k=3
-score = semantic_r_precision(reference_keyphrases, predicted_keyphrases)
+score = semantic_r_precision(reference_keyphrases, predicted_keyphrases. k=3, model_name_or_path='uclanlp/keyphrase-mpnet-v1')
 
 print(f"Semantic R-Precision: {score:.4f}")
 ```
 
+## Customisation
 
+* *k*: you can customise parameter k. In our [paper](https://www.researchgate.net/publication/391552955_Meaning_in_Order_Order_in_Meaning_Semantic_R-precision_for_Keyphrase_Evaluation)
+we go through the reasons why we chose *k*=3 as default and what happens when you change it to *k*=1.
+* embedding model: change it to your preferred one
 
