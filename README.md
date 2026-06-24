@@ -11,21 +11,15 @@ This implementation is intended for standalone use and was developed alongside o
 If you use SemR-p in your research, please cite our paper:
 
 ```bibtex
-@misc{VenturiniKinkel2024SemRp_preprint,
-  author    = {Venturini, Shamira and Kinkel, Steffen},
-  title     = {Meaning in Order, Order in Meaning: {S}emantic {R}-precision for Keyphrase Evaluation},
-  year      = {2025},
-  howpublished = {ResearchGate preprint},
-  note      = {Preprint available online},
-  url       = {https://www.researchgate.net/publication/391552This955_Meaning_in_Order_Order_in_Meaning_Semantic_R-precision_for_Keyphrase_Evaluation},
-  doi       = {@misc{VenturiniKinkel2024SemRp_preprint,
-  author    = {Venturini, Shamira and Kinkel, Steffen},
-  title     = {Meaning in Order, Order in Meaning: {S}emantic {R}-precision for Keyphrase Evaluation},
-  year      = {2025},
-  howpublished = {ResearchGate preprint},
-  note      = {Preprint available online},
-  url       = {https://www.researchgate.net/publication/391552955_Meaning_in_Order_Order_in_Meaning_Semantic_R-precision_for_Keyphrase_Evaluation},
-  doi       = {10.13140/RG.2.2.31841.83044}
+@misc{https://doi.org/10.48550/arxiv.2606.07057,
+  doi = {10.48550/ARXIV.2606.07057},
+  url = {https://arxiv.org/abs/2606.07057},
+  author = {Venturini,  Shamira and Kinkel,  Steffen},
+  keywords = {Information Retrieval (cs.IR),  Computation and Language (cs.CL),  FOS: Computer and information sciences,  FOS: Computer and information sciences},
+  title = {Meaning in Order,  Order in Meaning: Semantic R-precision for Keyphrase Evaluation},
+  publisher = {arXiv},
+  year = {2026},
+  copyright = {Creative Commons Attribution 4.0 International}
 }
 
 ```
